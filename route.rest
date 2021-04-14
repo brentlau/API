@@ -1,0 +1,21 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/60760ecaf31fae63dc0170cf
+
+###
+
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Brent Lau",
+    "subscribedToChannel": "brentlau.com"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/60760ecaf31fae63dc0170cf
